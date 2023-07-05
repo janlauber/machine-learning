@@ -1,0 +1,14 @@
+version: '3'
+services:
+  jupyter-pyspark:
+    image: jupyter/pyspark-notebook:spark-3.2.1
+    container_name: jupyter-pyspark
+    user: root
+    ports:
+      - "8888:8888"
+      - "4040:4040"
+    volumes:
+      - .:/home/jovyan/work
+    environment:
+      - CHOWN_EXTRA=/home/jovyan/work
+      - CHOWN_EXTRA_OPTS=-R

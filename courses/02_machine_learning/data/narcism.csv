@@ -1,0 +1,9 @@
+id,name,height,is_narcistic,experience
+asdf,Mary,160,false,30
+sdfd,John,180,false,20
+dfdf,Peter,172,true,40
+sfsf,Frank,175,false,50
+,,123,false,0
+,,,0
+,a,,0
+2323,Steve,180,true,60
